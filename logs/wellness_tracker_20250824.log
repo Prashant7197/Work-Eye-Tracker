@@ -105,3 +105,46 @@
 2025-08-24 15:15:15,326 - core.system_monitor - INFO - _monitoring_loop:120 - Monitoring loop ended
 2025-08-24 15:15:15,326 - core.system_monitor - INFO - stop:92 - System monitoring stopped
 2025-08-24 15:15:15,447 - ui.dashboard_widget - INFO - stop_monitoring:468 - Monitoring stopped successfully
+2025-08-24 23:08:26,776 - root - INFO - setup_logger:67 - Logger initialized successfully
+2025-08-24 23:08:28,185 - core.auth_manager - INFO - __init__:32 - Auth manager initialized
+2025-08-24 23:08:28,311 - core.data_manager - INFO - _init_database:115 - Database initialized successfully
+2025-08-24 23:08:28,324 - core.data_manager - INFO - __init__:48 - Data manager initialized
+2025-08-24 23:08:28,468 - core.auth_manager - INFO - __init__:32 - Auth manager initialized
+2025-08-24 23:08:28,593 - ui.auth_widget - INFO - __init__:26 - Auth widget initialized
+2025-08-24 23:08:28,594 - core.eye_tracker - INFO - __init__:48 - Eye tracker initialized
+2025-08-24 23:08:29,596 - core.system_monitor - INFO - __init__:49 - System monitor initialized
+2025-08-24 23:08:29,603 - core.data_manager - INFO - _init_database:115 - Database initialized successfully
+2025-08-24 23:08:29,606 - core.data_manager - INFO - __init__:48 - Data manager initialized
+2025-08-24 23:08:30,916 - ui.dashboard_widget - INFO - __init__:38 - Dashboard widget initialized
+2025-08-24 23:08:31,016 - ui.status_bar - INFO - __init__:26 - Status bar initialized
+2025-08-24 23:08:31,021 - ui.main_window - INFO - show_auth_screen:131 - Showing authentication screen
+2025-08-24 23:08:31,021 - ui.main_window - INFO - __init__:34 - Main window initialized
+2025-08-24 23:08:31,199 - __main__ - INFO - main:43 - Application started successfully
+2025-08-24 23:08:46,212 - core.auth_manager - WARNING - authenticate:60 - Authentication failed for user: username
+2025-08-24 23:08:46,212 - ui.auth_widget - WARNING - handle_login:196 - Failed authentication attempt for user: username
+2025-08-24 23:09:00,154 - core.auth_manager - INFO - authenticate:55 - User admin authenticated successfully
+2025-08-24 23:09:00,211 - ui.auth_widget - INFO - handle_login:193 - User admin authenticated successfully
+2025-08-24 23:09:00,658 - ui.main_window - INFO - on_login_successful:141 - User admin logged in successfully
+2025-08-24 23:09:00,658 - ui.dashboard_widget - INFO - start_monitoring:378 - Starting monitoring
+2025-08-24 23:09:00,658 - core.eye_tracker - INFO - start:55 - Starting eye tracker
+2025-08-24 23:09:01,559 - core.eye_tracker - INFO - _initialize_camera:139 - Camera initialized successfully
+2025-08-24 23:09:01,942 - core.eye_tracker - INFO - _load_cascades:157 - Cascade classifiers loaded successfully
+2025-08-24 23:09:01,942 - core.eye_tracker - INFO - start:62 - Camera available, using real tracking
+2025-08-24 23:09:01,942 - core.eye_tracker - INFO - _tracking_loop:166 - Starting tracking loop
+2025-08-24 23:09:01,942 - core.eye_tracker - INFO - start:88 - Eye tracking started successfully
+2025-08-24 23:09:01,942 - core.system_monitor - INFO - start:56 - Starting system monitor
+2025-08-24 23:09:01,942 - core.system_monitor - INFO - _monitoring_loop:98 - Starting monitoring loop
+2025-08-24 23:09:01,942 - core.system_monitor - INFO - start:68 - System monitoring started
+2025-08-24 23:09:01,963 - ui.dashboard_widget - INFO - start_monitoring:417 - Monitoring started successfully
+2025-08-24 23:09:01,965 - ui.main_window - INFO - show_dashboard:137 - Showing dashboard
+2025-08-24 23:09:56,355 - ui.dashboard_widget - INFO - stop_monitoring:428 - Stopping monitoring
+2025-08-24 23:09:56,355 - core.eye_tracker - INFO - stop:100 - Stopping eye tracker
+2025-08-24 23:09:56,408 - core.eye_tracker - INFO - _tracking_loop:212 - Tracking loop ended
+2025-08-24 23:09:57,062 - core.eye_tracker - INFO - stop:119 - Eye tracking stopped
+2025-08-24 23:09:57,063 - core.system_monitor - INFO - stop:80 - Stopping system monitor
+2025-08-24 23:09:59,080 - core.system_monitor - INFO - stop:91 - System monitoring stopped
+2025-08-24 23:09:59,124 - core.system_monitor - INFO - _monitoring_loop:119 - Monitoring loop ended
+2025-08-24 23:09:59,291 - ui.dashboard_widget - INFO - stop_monitoring:462 - Monitoring stopped successfully
+2025-08-24 23:10:01,349 - ui.main_window - INFO - on_logout_requested:158 - Logout requested
+2025-08-24 23:10:01,355 - ui.main_window - INFO - show_auth_screen:131 - Showing authentication screen
+2025-08-24 23:10:03,437 - ui.main_window - INFO - closeEvent:181 - Application closing

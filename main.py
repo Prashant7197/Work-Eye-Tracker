@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QFont
 
-# Add src directory to path
+# Add src directory
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 from ui.main_window import MainWindow
