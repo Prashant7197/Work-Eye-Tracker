@@ -1,0 +1,9 @@
+# Wellness at Work - Eye Tracker Desktop Application
+# Core PyQt5 framework
+PyQt5>=5.15.4
+opencv-python>=4.5.0
+psutil>=5.8.0
+cryptography>=3.4.7
+jsonschema>=3.2.0
+python-dateutil>=2.8.2
+pathlib>=1.0.1

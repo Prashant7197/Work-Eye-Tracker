@@ -1,0 +1,47 @@
+{
+    "app": {
+        "name": "Wellness at Work - Eye Tracker",
+        "version": "1.0.0",
+        "debug_mode": false,
+        "auto_start_monitoring": false
+    },
+    "eye_tracking": {
+        "simulation_mode": false,
+        "blink_threshold_frames": 5,
+        "camera_index": 0,
+        "camera_width": 640,
+        "camera_height": 480,
+        "camera_fps": 30
+    },
+    "system_monitoring": {
+        "update_interval_seconds": 2,
+        "metrics_history_minutes": 60,
+        "enable_battery_monitoring": true,
+        "enable_network_monitoring": true
+    },
+    "data": {
+        "auto_sync_enabled": true,
+        "sync_interval_minutes": 5,
+        "retention_days": 30,
+        "database_path": "data/wellness_tracker.db"
+    },
+    "ui": {
+        "theme": "dark",
+        "window_width": 1200,
+        "window_height": 800,
+        "remember_window_position": true,
+        "show_notifications": true
+    },
+    "privacy": {
+        "gdpr_compliance": true,
+        "data_encryption": true,
+        "anonymize_data": false,
+        "consent_required": true
+    },
+    "api": {
+        "base_url": "https://api.wellness-tracker.com",
+        "timeout_seconds": 30,
+        "retry_attempts": 3,
+        "use_ssl": true
+    }
+}
